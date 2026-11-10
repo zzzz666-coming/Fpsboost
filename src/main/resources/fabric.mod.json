@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsboost",
+  "version": "${version}",
+  "name": "Fpsboost",
+  "description": "Standalone client-side performance profiles for Minecraft Java on Android.",
+  "authors": ["zzzz666-coming"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.fpsboost.FpsboostClient"] },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
